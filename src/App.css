@@ -28,11 +28,86 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.content-container{
+  display: flex;
+}
+
+.descriptor-container{
+  flex: 1;
+  background-color: orangered;
+  padding: 10px;
+}
+
+.list-title{
+  background-color: white;
+  font-weight: bold;
+  padding: 10px;
+  font-family: arial;
+}
+
+.list-text{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  padding: 10px;
+  text-align: justify;
+}
+
+#title-pic{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.title-text{
+  color: red;
+}
+
+.summer-menu-list li{
+  padding: 10px;
+}
+
+.welcome-special-container{
+  flex: 2.5;
+  padding: 10px;
+}
+
+.welcome{
+  display: flex;
+  flex-direction: row;
+}
+
+.welcome-text{
+  font-family: 'Raleway', sans-serif;
+}
+
+.cont-content{
+  padding: 10px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 992px){
+  .welcome{
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+
+  .welcome-special-container{
+    flex: 1.5;
+  }
+
+  .descriptor-container{
+    flex: 1;
+  }
+}
+
+@media screen and (max-width: 576px){
+  .welcome{
+    flex-direction: column;
+  }
+
+  .content-container{
+      flex-direction: column-reverse;
+  }
+
+  .title-pic{
+    display: none;
   }
 }

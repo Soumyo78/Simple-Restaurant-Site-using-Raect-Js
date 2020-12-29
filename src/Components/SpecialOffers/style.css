@@ -1,0 +1,30 @@
+.special-offers{
+    display: flex;
+    flex-direction: row;
+}
+
+.special-offers-content{
+    padding: 10px;
+}
+
+.special-offers-img-container{
+    padding: 10px;
+}
+
+.special-offers-title{
+    color: green;
+}
+
+.special-offers-text{
+    text-align: justify;
+}
+
+@media screen and (max-width: 576px){
+    
+}
+
+@media screen and (max-width: 576px){
+    .special-offers{
+        flex-direction: column;
+    }
+}
