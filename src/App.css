@@ -23,6 +23,7 @@
 
 .descriptor-container{
   flex: 1;
+  display: inline-table;
   background-color: orangered;
   padding: 10px;
 }
