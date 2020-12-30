@@ -19,8 +19,10 @@
     text-align: justify;
 }
 
-@media screen and (max-width: 576px){
-    
+@media screen and (max-width: 992px){
+    .special-offers{
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 576px){
