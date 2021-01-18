@@ -1,0 +1,88 @@
+.contact-us-div-container{
+    background-image: url("../../Resources/contactus-background.jpeg");
+    background-size: cover;
+    display: flex;
+    margin-top: 20px;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+}
+
+.contact-us-content-container{
+    background-color: rgb(255, 255, 255, 0.5);
+    width: 100%;
+    padding: 30px;
+}
+
+.contact-us-title-container{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: right;
+    padding: 30px;
+    padding-right: 300px;
+    text-decoration: underline;
+}
+
+.contact-us-content{
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: flex-end;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+    text-align: left;
+}
+
+.input-field{
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+    padding: 5px;
+    border: none;
+}
+
+#mobile-no-input-field{
+    text-align: left;
+    width: 465px;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+#text-area-label{
+    margin: 10px;
+}
+
+textarea{
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    width: 480px;
+}
+
+.input-field:focus, textarea, #submit-btn:focus{
+    outline: none;
+}
+
+.submit-btn-container{
+     text-align: center;
+}
+
+#submit-btn{
+    color: white;
+    background-color: green;
+    border: none;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
